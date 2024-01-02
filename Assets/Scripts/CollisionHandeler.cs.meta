@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a2ea6c05f0e8ab94cad3a8b1a29849df
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CrashVFX: {fileID: 7642683145945333306, guid: 9334e8e951e7a4cf98f12a979efd2d97,
+      type: 3}
+  - collider: {instanceID: 0}
+  - DisplayWhenDead: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
