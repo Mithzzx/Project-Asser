@@ -440,19 +440,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4889076547100212, guid: ce210301dd5cd4dbd84fe1a80d9d6073, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.999907
       objectReference: {fileID: 0}
     - target: {fileID: 4889076547100212, guid: ce210301dd5cd4dbd84fe1a80d9d6073, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -3.053113e-16
       objectReference: {fileID: 0}
     - target: {fileID: 4889076547100212, guid: ce210301dd5cd4dbd84fe1a80d9d6073, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.013638703
       objectReference: {fileID: 0}
     - target: {fileID: 4889076547100212, guid: ce210301dd5cd4dbd84fe1a80d9d6073, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 1.94289e-16
       objectReference: {fileID: 0}
     - target: {fileID: 4889076547100212, guid: ce210301dd5cd4dbd84fe1a80d9d6073, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -460,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4889076547100212, guid: ce210301dd5cd4dbd84fe1a80d9d6073, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 1.563
       objectReference: {fileID: 0}
     - target: {fileID: 4889076547100212, guid: ce210301dd5cd4dbd84fe1a80d9d6073, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1406,6 +1406,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetMaterialNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &250352054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2295,6 +2307,18 @@ MonoBehaviour:
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetMaterialNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3315,6 +3339,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetShipNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &704117173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4126,6 +4162,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetShipNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &837243816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4268,6 +4316,18 @@ MonoBehaviour:
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetMaterialNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4482,6 +4542,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetMaterialNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &894386060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4630,6 +4702,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 1176535195}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetShipNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5010,6 +5094,18 @@ MonoBehaviour:
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetMaterialNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6518,6 +6614,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5c480795e516406d839e99d2c40f75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shipNumber: 0
+  materialNumber: 0
   selectedShip: {fileID: 1112665776}
   crashmesh: {fileID: 0}
   selectedMaterial: {fileID: 0}
@@ -7153,6 +7251,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetShipNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1393730637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7289,6 +7399,18 @@ MonoBehaviour:
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetMaterialNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8791,6 +8913,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetMaterialNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1826241618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9116,6 +9250,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 1797975612}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetShipNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9527,6 +9673,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetShipNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1918213547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9668,6 +9826,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 895564390}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1227148435}
+        m_TargetAssemblyTypeName: Garagepannel, Assembly-CSharp
+        m_MethodName: SetShipNumber
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
