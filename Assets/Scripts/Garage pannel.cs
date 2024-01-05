@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Garagepannel : MonoBehaviour
 {
+    public int shipNumber;
+    public int materialNumber;
+
     [SerializeField] public GameObject selectedShip;
     public GameObject crashmesh;
     public Material selectedMaterial;
@@ -40,5 +43,14 @@ public class Garagepannel : MonoBehaviour
     public void SaveChanges()
     {
         ps.UpdateShip(selectedShip,crashmesh,selectedMaterial);
+    }
+
+    public void SetShipNumber(int number)
+    {
+        shipNumber = number;
+    }
+    public void SetMaterialNumber(int number)
+    {
+        materialNumber = number;
     }
 }
