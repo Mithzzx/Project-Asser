@@ -4493,6 +4493,11 @@ PrefabInstance:
       propertyPath: DisplayWhenDead
       value: 
       objectReference: {fileID: 1257497751}
+    - target: {fileID: 4224628747942017280, guid: e07117edb911f4f628a16fa90b093a40,
+        type: 3}
+      propertyPath: virtualCamera
+      value: 
+      objectReference: {fileID: 560606820}
     - target: {fileID: 5225299183053261277, guid: e07117edb911f4f628a16fa90b093a40,
         type: 3}
       propertyPath: m_Drag
