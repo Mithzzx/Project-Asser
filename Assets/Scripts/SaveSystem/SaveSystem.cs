@@ -26,6 +26,8 @@ public static class SaveSystem
             FileStream stream = new FileStream(path, FileMode.Open);
 
             ShipData data = formatter.Deserialize(stream) as ShipData;
+            stream.Close();
+
             return data;
         }
         else
