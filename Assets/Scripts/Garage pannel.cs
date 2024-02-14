@@ -54,9 +54,4 @@ public class Garagepannel : MonoBehaviour
         materialNumber = number;
     }
 
-    public void SaveShip()
-    {
-        SaveSystem.SaveShip(this);
-    }
-
 }

@@ -9,6 +9,7 @@ public class PlayerRig : MonoBehaviour
     [SerializeField] GameObject[] ships;
     [SerializeField] Material[] materials;
 
+
     [System.Obsolete]
     private void Start()
     {
@@ -22,14 +23,4 @@ public class PlayerRig : MonoBehaviour
         }
     }
 
-    public void LoadShip()
-    {
-        ShipData data = SaveSystem.LoadShip();
-
-        int shipNumber = data.shipNumber;
-        int materialNumber = data.materialNumber;
-
-        ships[shipNumber].gameObject.SetActive(true);
-        ships[shipNumber].GetComponent<MeshRenderer>().material = materials[materialNumber];
-    }
 }

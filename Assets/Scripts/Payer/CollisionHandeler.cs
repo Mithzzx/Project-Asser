@@ -37,7 +37,7 @@ public class CollisionHandeler : MonoBehaviour
     [System.Obsolete]
     void StartCrashSequance()
     {
-        
+        Instantiate(CrashVFX, toDestroy.transform);
         CrashVFX.gameObject.SetActive(true);
 
         toDestroy.GetComponent<MeshRenderer>().enabled = false;
