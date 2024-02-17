@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class LimitFPS : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Serializefield] int fps = 60;
     void Start()
     {
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = fps;
     }
 
 }
