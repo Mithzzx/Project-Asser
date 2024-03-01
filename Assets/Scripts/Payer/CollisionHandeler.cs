@@ -25,6 +25,7 @@ public class CollisionHandeler : MonoBehaviour
 
     private void OnCollisionEnter(Collision others)
     {
+
         if (others.gameObject.tag != "Frindly")
         {
             StartCrashSequance();
