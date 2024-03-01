@@ -5,6 +5,8 @@ using Cinemachine;
 
 public class PlayerRig : MonoBehaviour
 {
+    SavedShip savedShip;
+
     [SerializeField] CinemachineVirtualCamera virtualCamera;
     [SerializeField] GameObject[] ships;
     [SerializeField] Material[] materials;
@@ -13,6 +15,12 @@ public class PlayerRig : MonoBehaviour
     [System.Obsolete]
     private void Start()
     {
+        savedShip = GameObject.Find("SavedShip").GetComponent<SavedShip>();
+
+        ships[savedShip.selectedShip].gameObject.SetActive(true);
+        ships[savedShip.selectedShip].GetComponent<MeshRenderer>().material = materials[savedShip.selectedMaterial];
+
+
         foreach (GameObject ship in ships)
         {
             if (ship.active == true)

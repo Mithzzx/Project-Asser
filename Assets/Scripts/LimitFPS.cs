@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class LimitFPS : MonoBehaviour
 {
-    [SerializeField] int fps = 60;
+    [SerializeField] public static int fps = 60;
+
+    public void Setfps(int toset)
+    {
+        fps = toset;
+        Application.targetFrameRate = fps;
+    }
 
     void Start()
     {

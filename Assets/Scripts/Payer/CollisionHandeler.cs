@@ -15,16 +15,14 @@ public class CollisionHandeler : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera cam;
     [SerializeField] GameObject toLook;
     [Header("Others")]
-    [SerializeField] AudioClip crashSFX;
     [SerializeField] float reloadDelay = 1f;
     [SerializeField] GameObject CrashVFX;
-    [SerializeField] GameObject collider;
+    [SerializeField] new GameObject collider;
     [SerializeField] TMP_Text DisplayWhenDead;
     [Tooltip("Text To Display When Dead")]
     [SerializeField]string DeadText;
 
 
-    [System.Obsolete]
     private void OnCollisionEnter(Collision others)
     {
         if (others.gameObject.tag != "Frindly")
@@ -34,11 +32,13 @@ public class CollisionHandeler : MonoBehaviour
         
     }
 
-    [System.Obsolete]
     void StartCrashSequance()
     {
         Instantiate(CrashVFX, toDestroy.transform);
         CrashVFX.gameObject.SetActive(true);
+        CrashVFX.GetComponent<ParticleSystem>().Play();
+
+        GetComponent<AudioSource>().Play();
 
         toDestroy.GetComponent<MeshRenderer>().enabled = false;
         collider.gameObject.SetActive(false);

@@ -23,6 +23,8 @@ public class EnemyScript : MonoBehaviour
         if (HP == 0)
         {
             Instantiate(ExplotionVFX, transform.position, Quaternion.identity);
+            GetComponent<AudioSource>().Play();
+            Debug.Log("Played");
             Destroy(gameObject);
         }
         

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Garagepannel : MonoBehaviour
 {
-    public int shipNumber = 0 ;
-    public int materialNumber = 0;
+    [SerializeField] public static int shipNumber = 0 ;
+    [SerializeField] public static int materialNumber = 0;
 
     [SerializeField] public GameObject selectedShip;
     public GameObject crashmesh;

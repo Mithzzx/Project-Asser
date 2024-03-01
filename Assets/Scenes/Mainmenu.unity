@@ -2384,7 +2384,27 @@ PrefabInstance:
     - target: {fileID: 71148346366279388, guid: 186ba037f5d054989905f241464eefdd,
         type: 3}
       propertyPath: m_Name
-      value: SavedShip
+      value: PlayerShip
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032199224198990557, guid: 186ba037f5d054989905f241464eefdd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120753447517335215, guid: 186ba037f5d054989905f241464eefdd,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5120935574098387951, guid: 186ba037f5d054989905f241464eefdd,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5121076840688518513, guid: 186ba037f5d054989905f241464eefdd,
+        type: 3}
+      propertyPath: looping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5861371169020892539, guid: 186ba037f5d054989905f241464eefdd,
         type: 3}
@@ -2496,6 +2516,52 @@ MonoBehaviour:
   selectedShip: {fileID: 0}
   crashMesh: {fileID: 0}
   selectedMaterial: {fileID: 0}
+--- !u!1 &559693961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 559693963}
+  - component: {fileID: 559693962}
+  m_Layer: 0
+  m_Name: SavedShip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &559693962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559693961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a116532c57e4e7db085f833f379ffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedShip: 0
+  selectedMaterial: 0
+--- !u!4 &559693963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559693961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 77.56182, y: 128.1391, z: 61.999767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560606819
 GameObject:
   m_ObjectHideFlags: 0
@@ -5014,6 +5080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 424fc5ca654d74d07aa7036f548883c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fps: 60
 --- !u!1 &993813974
 GameObject:
   m_ObjectHideFlags: 0
@@ -5510,12 +5577,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1112665777}
+  - {fileID: 80395292}
   - {fileID: 321565355}
+  - {fileID: 853465275}
+  - {fileID: 1112665777}
   - {fileID: 1467333623}
   - {fileID: 1769303142}
-  - {fileID: 80395292}
-  - {fileID: 853465275}
   - {fileID: 1935388603}
   m_Father: {fileID: 477855914}
   m_RootOrder: -1
@@ -6626,8 +6693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5c480795e516406d839e99d2c40f75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shipNumber: 0
-  materialNumber: 0
   selectedShip: {fileID: 1112665776}
   crashmesh: {fileID: 0}
   selectedMaterial: {fileID: 0}
@@ -9431,6 +9496,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 559693962}
+        m_TargetAssemblyTypeName: SavedShip, Assembly-CSharp
+        m_MethodName: saveShip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 475303764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
