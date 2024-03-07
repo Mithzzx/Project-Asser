@@ -33,7 +33,7 @@ public class CollisionHandeler : MonoBehaviour
         
     }
 
-    void StartCrashSequance()
+    public void StartCrashSequance()
     {
         Instantiate(CrashVFX, toDestroy.transform);
         CrashVFX.gameObject.SetActive(true);
